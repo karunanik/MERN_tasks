@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK 7</title>
+    <style>
+        body{
+            background-color: rgb(214, 113, 130);
+        }
+        div{
+            padding-left: 30%;
+            background-color: rgb(155, 65, 80);
+            margin: 10%;
+            height: 500px;
+            padding-top:10%;
+            
+        }
+        label{
+            text-align: left;
+        }
+        
+        input{
+            text-align: left;
+            align-items: left;
+            align-content: left;
+           
+        }
+        .inp{
+            height: 20px;
+            padding-right: 5px;
+        }
+        .btn {
+        background: #dcdcdc;
+        background-color: white;
+       border: none;
+        -webkit-border-radius: 6;
+        -moz-border-radius: 6;
+        border-radius: 6px;
+        font-family: Georgia;
+        color: #000000;
+        font-size: 23px;
+        padding: 10px 100px 10px 100px;
+        text-decoration: none;
+        }
+
+        .btn:hover {
+        background-color:white ;
+        background: #d7d7d7;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="name">Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" placeholder="your name">
+        <br><br><br>
+        <label for="email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" placeholder="your email">
+        <br><br><br>
+        <label for="pw">Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="password" >
+        <br><br><br>
+        <label for="ph">Phone number: &nbsp;&nbsp;</label>
+        <input type="number">
+        <br><br><br>
+        <label for="gender">Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <label for="male">&nbsp;&nbsp;&nbsp;&nbsp;Male:</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">&nbsp;&nbsp;&nbsp;&nbsp;Female:</label>
+        <input type="radio" name="gender" id="female">
+        <label for="other">&nbsp;&nbsp;&nbsp;&nbsp;other:</label>
+        <input type="radio" name="gender" id="other">
+        <br><br>
+        <label for="language" >language &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <select name="" id="language" >
+            <option value="sel">select language</option>
+            <option value="eng">English</option>
+            <option value="hin">Hindi</option>
+            <option value="mar">Marathi</option>
+        </select>
+        <br><br>
+        <label for="zip">Zip code: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="number" >
+        <br><br>
+        <label for="about" >About: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="inp" size="40" placeholder="write about yourself...">
+        <br><br><br><br>
+    
+
+        <button class="btn">
+            <b>Register</b>
+        </button>
+    </div>
+
+    
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK 2</title>
+    <style>
+       body{
+            margin: 0px;
+            font-family:'Times New Roman', Times, serif
+
+        }
+        .hor{
+            width: 50%;
+            display: flex;
+            background-color:rgb(223, 217, 217);
+        }
+        .home ,.java ,.html ,.css ,.bs{
+            justify-content: center;
+            width: 100%;
+            align-items: center;
+            text-align: center; 
+            color: blue;
+            font-size: 20px;
+            font-weight: bold;
+            transition: background-color 0.6s ease-in 0s,color 0.6 ease-in 0s;
+            border-right: 1px solid #bbb;
+            border-color: black;
+            border-right: 1px solid #bbb;
+
+        }
+        .home:hover{
+            background-color:grey;
+            cursor: pointer;
+            color:white;
+        }
+        .java:hover{
+            background-color: grey;
+            cursor: pointer;
+            color: white;
+        }
+        .html:hover{
+            background-color: grey;
+            cursor: pointer;
+            color: white;
+        }
+        .bs:hover{
+            background-color: grey;
+            cursor: pointer;
+            color: white;
+        }
+        .css:hover{
+            background-color: grey;
+            cursor: pointer;
+            color: white;
+        }
+        .ver{
+            display: flex;
+            flex-direction: column;
+            background-color:rgb(225, 222, 222);
+            width: 10%;
+        }
+        div {
+        border: 1px solid #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS TASK 2</h1>
+    <h2>navigation bar</h2>
+    <h3>horizontal navigation bar</h3>
+    <div class="hor">
+        <div class="home">Home</div>
+        <div class="java">Java</div>
+        <div class="css">Css</div>
+        <div class="html">Html</div> 
+        <div class="bs">Bootstrap</div>
+    </div><br><br><br><br><br><br>
+    <h3>vertical navigation bar</h3>
+    <div class="ver">
+        <div class="home">Home</div>
+        <div class="java">Java</div>
+        <div class="css">Css</div>
+        <div class="html">Html</div> 
+        <div class="bs">Bootstrap</div>
+       
+    </div>
+
+
+</body>
+</html>

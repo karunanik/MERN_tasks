@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK 5</title>
+    <style>
+        body{
+            background-color:yellow;
+            display: flex;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            flex-direction: row;
+            color: purple;
+            
+        }
+        .left{
+            margin-top: 10%;
+            width: 40%;
+            height: 1000px;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .right{
+            padding-top: 10%;
+            width: 60%;
+            height: 1000px;
+            padding-right: 10%;
+
+        }
+        span{
+            border: 1px solid black;
+            
+            border-right: 20px solid black;
+            height: max-content;
+            width: 20%;
+            display: flex;
+            justify-content:baseline;
+            align-items:flex-start;
+            padding: 10px;
+            margin: 10px;
+            font-weight: 500;
+            font-size: 20px;
+            background-color: white;
+            color: black;
+            transition: transform 100ms ease-in 0s;
+        }
+        span:hover{
+            
+            cursor: pointer;
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <span>Home Page</span>
+        <span>Musings</span>
+        <span>My Town</span>
+        <span>Links</span>
+    </div>
+    <div class="right">
+        <h1><b>My first Styled Page</b></h1>
+        <p>Welcome to my Styled Page <br>
+         It lacks images but atleast it has style and it has links even if they dont go anywhere.....
+        There should be more here but i dont know what to put so this is it</p>
+        <hr>
+        <address>Made 5 apr 2004 <br> by myself</address>
+        
+    </div>
+
+</body>
+</html>
